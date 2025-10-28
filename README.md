@@ -17,7 +17,6 @@
 1) 安装依赖：
 
 ```powershell
-python -m venv .venv .\.venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -107,6 +106,7 @@ python build_exe.py
 
 ## 许可证
 未设置。如需开源，请补充 `LICENSE` 文件（例如 MIT）。
+
 
 
 
