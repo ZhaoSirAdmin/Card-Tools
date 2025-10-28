@@ -47,7 +47,7 @@ pip install -r requirements.txt
 1) 启动应用：
 
 ```powershell
-python "1 可运行.py"
+python "Card Tools.py"
 ```
 
 首次运行会在 `data/` 下自动创建配置文件：
@@ -114,7 +114,7 @@ python build_exe.py
 ## 目录结构
 ```
 2025-9-3/
-├─ 1 可运行.py          # 主程序（PyQt5 GUI）
+├─ Card Tools.py        # 主程序（PyQt5 GUI）
 ├─ build_exe.py         # 一键打包脚本（PyInstaller）
 ├─ data/                # 配置文件目录（运行时自动创建或更新）
 ├─ assets/              # 资源目录（如 app.ico）
