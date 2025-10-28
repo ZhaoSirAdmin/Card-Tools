@@ -13,14 +13,38 @@
 - Windows 10/11（建议）
 - Python 3.8+（运行源码时需要）
 
-## 快速开始（运行源码）
-1) 安装依赖：
+## 开发与测试环境
+- Windows 10 64 位
+- Python 3.9.9
+- PyQt5 5.15.10
+
+## 获取代码
+- 方式一：在 GitHub 上点击 Code → Download ZIP，解压后进入项目目录。
+- 方式二（推荐）：使用 Git 克隆仓库并进入目录：
 
 ```powershell
-pip install -r requirements.txt
+git clone https://github.com/ZhaoSirAdmin/Card-Tools.git
+cd Card-Tools
 ```
 
-2) 启动应用：
+仓库地址：[`https://github.com/ZhaoSirAdmin/Card-Tools`](https://github.com/ZhaoSirAdmin/Card-Tools)
+
+## 依赖与安装
+必需软件：
+- Python 3.8–3.12（64 位）
+- pip（随 Python 一起安装）
+
+安装步骤（PowerShell）：
+```powershell
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+# 如在国内，可使用镜像：
+# pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+```
+
+## 快速开始（运行源码）
+1) 启动应用：
 
 ```powershell
 python "1 可运行.py"
@@ -106,8 +130,5 @@ python build_exe.py
 
 ## 许可证
 未设置。如需开源，请补充 `LICENSE` 文件（例如 MIT）。
-
-
-
 
 

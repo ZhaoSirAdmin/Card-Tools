@@ -1,4 +1,5 @@
-PyQt5>=5.15,<6
-pyinstaller>=6.0,<7.0
+# Runtime dependencies
+PyQt5==5.15.10
 
-
+# Packaging (optional, only needed if you build EXE)
+pyinstaller==6.6.0
