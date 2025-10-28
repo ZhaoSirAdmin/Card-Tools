@@ -113,7 +113,7 @@ python build_exe.py
 
 ## 目录结构
 ```
-2025-9-3/
+main/
 ├─ Card Tools.py        # 主程序（PyQt5 GUI）
 ├─ build_exe.py         # 一键打包脚本（PyInstaller）
 ├─ data/                # 配置文件目录（运行时自动创建或更新）
@@ -128,6 +128,7 @@ python build_exe.py
 
 ## 许可证
 未设置。如需开源，请补充 `LICENSE` 文件（例如 MIT）。
+
 
 
 
