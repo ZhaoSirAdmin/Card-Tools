@@ -117,8 +117,6 @@ python build_exe.py
 ├─ Card Tools.py        # 主程序（PyQt5 GUI）
 ├─ build_exe.py         # 一键打包脚本（PyInstaller）
 ├─ data/                # 配置文件目录（运行时自动创建或更新）
-├─ assets/              # 资源目录（如 app.ico）
-├─ dist/                # 打包输出目录（已在 .gitignore 中排除）
 ├─ requirements.txt     # 依赖清单
 └─ README.md
 ```
@@ -130,5 +128,6 @@ python build_exe.py
 
 ## 许可证
 未设置。如需开源，请补充 `LICENSE` 文件（例如 MIT）。
+
 
 
